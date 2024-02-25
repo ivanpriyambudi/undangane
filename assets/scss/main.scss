@@ -1,6 +1,15 @@
+@import "../fonts/bould";
+
+*,
+html,
+body {
+  font-family: "Bould", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  // overflow: hidden;
 }
 
 .container {
@@ -17,4 +26,14 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+}
+
+.contents {
+  width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contents {
+    width: 90%;
+  }
 }
