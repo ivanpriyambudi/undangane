@@ -8,9 +8,10 @@
 
         <div
           class="contents"
+          data-aos="fade-up"
           style="text-align: center; margin-top: 2vh;"
         >
-          <p style="color: #FFF;">
+          <p style="color: #FFF; font-size: small;">
             Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan
             pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu
             merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan
@@ -25,24 +26,26 @@
     </div>
     
     <img
-      class="bg-img-2"
-      src="/bg-2.png"
+      data-aos="fade-right"
+      class="bg-img-3"
+      src="/bg-3.png"
     >
   </div>
 </template>
 
 <style lang="scss" scoped>
-.bg-img-2 {
+.bg-img-3 {
   position: absolute;
   top: -10vh;
-  transform: scaleX(-1);
-  left: -10vw;
+  left: -15vw;
 }
 
 @media only screen and (max-width: 768px) {
-  .bg-img-2 {
+  .bg-img-3 {
     top: 0;
     left: -100vw;
+    width: 200vmin;
+    opacity: 0.25 !important;
   }
 }
 </style>

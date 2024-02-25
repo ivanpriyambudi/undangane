@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  ssr: false,
+
   css: ['~/assets/scss/main.scss'],
 
   devServer: {
@@ -10,5 +12,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/image',
-  ]
+    'nuxt-aos'
+  ],
 });

@@ -5,6 +5,7 @@
       style="flex-direction: column; z-index: 2; position: relative;"
     >
       <div
+        data-aos="fade-down"
         class="contents long"
         style="text-align: center;"
       >
@@ -13,14 +14,18 @@
             Akad Nikah
           </div>
         </div>
-        <div style="font-size: medium">
+        <div style="font-size: medium; font-weight: 300;">
           Kamis, 29 Februari 2024 <br> Jam 08.00 WITA
         </div>
       </div>
 
-      <div style="height: 20vh; width: 2px; background-color: #23352F; margin-top: 1rem; margin-bottom: 1rem;" />
+      <div
+        data-aos="zoom-in-up"
+        style="height: 20vh; width: 2px; background-color: #23352F; margin-top: 1rem; margin-bottom: 1rem;"
+      />
 
       <div
+        data-aos="fade-down"
         class="contents long"
         style="text-align: center; margin-bottom: 10vh;"
       >
@@ -29,22 +34,32 @@
             Resepsi
           </div>
         </div>
-        <div style="font-size: medium">
+        <div style="font-size: medium; font-weight: 300;">
           Kamis, 29 Februari 2024 <br> Jam 11.00 WITA - selesai
         </div>
       </div>
 
       <div
+        data-aos="fade-up"
         class="contents long"
         style="text-align: center;"
       >
-        <div style="font-size: medium;">
+        <div style="font-size: medium; margin-bottom: 2rem;">
           Bertempat di Rumah Mempelai Wanita <br> BTN Citra Garden Blok B/9 Kec Rumbia, Kab Bombana
         </div>
+
+        <a
+          href="https://www.google.com/maps?q=-4.7688508,122.0428843"
+          target="_blank"
+          style="background-color: #23352F; border-radius: 8px; color: #FFF; padding: 0.5rem 1.5rem; text-decoration: none;"
+        >
+          Google Map
+        </a>
       </div>
     </div>
 
     <img
+      data-aos="fade-left"
       class="bg-img-2"
       src="/bg-2.png"
     >
@@ -62,8 +77,9 @@
 
 @media only screen and (max-width: 768px) {
   .bg-img-2 {
-    right: -25vw;
-  transform: rotate(26deg);
+    top: 25%;
+    right: -45vw;
+    transform: rotate(26deg);
   }
 }
 </style>

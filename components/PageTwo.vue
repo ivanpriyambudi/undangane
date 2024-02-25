@@ -4,15 +4,24 @@
       class="center-flex"
       style="flex-direction: column; z-index: 2; position: relative; top: -10vh; margin: 0 1rem;"
     >
-      <div style="text-align: center; margin-bottom: 10vh; text-transform: uppercase; font-size: x-large; font-weight: 300;">
-        <div>wedding</div>
-        <div>save the date</div>
+      <div
+        data-aos="fade-down"
+        style="text-align: center; margin-bottom: 10vh; text-transform: uppercase; font-size: x-large; font-weight: 300;"
+      >
+        <div>
+          wedding
+        </div>
+        <div>
+          save the date
+        </div>
       </div>
 
-      <div style="text-align: center;">
+      <div
+        style="text-align: center;"
+        data-aos="fade-down"
+      >
         <div
-          style="font-size: xx-large"
-          class="font-playfair"
+          class="font-playfair name"
         >
           IVAN PRIYAMBUDI
         </div>
@@ -24,6 +33,7 @@
       <div
         class="contents"
         style="margin-bottom: 4vh; margin-top: 4vh;"
+        data-aos="zoom-in"
       >
         <div
           class="and-line font-allura"
@@ -33,10 +43,12 @@
         </div>
       </div>
 
-      <div style="text-align: center;">
+      <div
+        style="text-align: center;"
+        data-aos="fade-up"
+      >
         <div
-          style="font-size: xx-large"
-          class="font-playfair"
+          class="font-playfair name"
         >
           KARINA ALFI NURIL LAYLI
         </div>
@@ -46,7 +58,11 @@
       </div>
     </div>
 
-    <div style="position: relative; display: flex; align-items: center; width: 100%; justify-content: center;">
+    <div
+      data-aos="fade-up"
+      data-aos-offset="-120"
+      style="position: relative; display: flex; align-items: center; width: 100%; justify-content: center;"
+    >
       <img
         class="bg-img-1"
         src="/bg-1.png"
@@ -79,6 +95,21 @@
     height: 2px;
     background: #23352F;
     margin-left: 1rem;
+  }
+}
+
+.name {
+  font-size: xx-large
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    font-size: x-large
+  }
+
+  .bg-img-1 {
+    position: absolute;
+    bottom: -20vh;
   }
 }
 </style>
