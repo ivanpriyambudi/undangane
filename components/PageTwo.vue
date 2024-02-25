@@ -2,15 +2,18 @@
   <div>
     <div
       class="center-flex"
-      style="flex-direction: column; z-index: 2; position: relative; top: -10vh;"
+      style="flex-direction: column; z-index: 2; position: relative; top: -10vh; margin: 0 1rem;"
     >
-      <div style="text-align: center; margin-bottom: 4vh; text-transform: uppercase; font-size: large;">
+      <div style="text-align: center; margin-bottom: 10vh; text-transform: uppercase; font-size: x-large; font-weight: 300;">
         <div>wedding</div>
         <div>save the date</div>
       </div>
 
       <div style="text-align: center;">
-        <div style="font-size: x-large">
+        <div
+          style="font-size: xx-large"
+          class="font-playfair"
+        >
           IVAN PRIYAMBUDI
         </div>
         <div style="font-size: medium">
@@ -22,13 +25,19 @@
         class="contents"
         style="margin-bottom: 4vh; margin-top: 4vh;"
       >
-        <div class="and-line">
+        <div
+          class="and-line font-allura"
+          style="font-size: xxx-large;"
+        >
           And
         </div>
       </div>
 
       <div style="text-align: center;">
-        <div style="font-size: x-large">
+        <div
+          style="font-size: xx-large"
+          class="font-playfair"
+        >
           KARINA ALFI NURIL LAYLI
         </div>
         <div style="font-size: medium">
@@ -49,7 +58,7 @@
 <style lang="scss" scoped>
 .bg-img-1 {
   position: absolute;
-  bottom: -20vh;
+  bottom: -30vh;
 }
 
 .and-line {
@@ -60,7 +69,7 @@
     content: '';
     flex: auto;
     height: 2px;
-    background: #000;
+    background: #23352F;
     margin-right: 1rem;
   }
 
@@ -68,7 +77,7 @@
     content: '';
     flex: auto;
     height: 2px;
-    background: #000;
+    background: #23352F;
     margin-left: 1rem;
   }
 }

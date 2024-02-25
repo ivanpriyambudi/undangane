@@ -8,22 +8,26 @@
         class="contents long"
         style="text-align: center;"
       >
-        <div style="text-transform: uppercase; font-size: xx-large;">
-          <div>Akad Nikah</div>
+        <div style="font-size: xxx-large;">
+          <div class="font-allura">
+            Akad Nikah
+          </div>
         </div>
         <div style="font-size: medium">
           Kamis, 29 Februari 2024 <br> Jam 08.00 WITA
         </div>
       </div>
 
-      <div style="height: 20vh; width: 2px; background-color: black; margin-top: 1rem; margin-bottom: 1rem;" />
+      <div style="height: 20vh; width: 2px; background-color: #23352F; margin-top: 1rem; margin-bottom: 1rem;" />
 
       <div
         class="contents long"
         style="text-align: center; margin-bottom: 10vh;"
       >
-        <div style="text-transform: uppercase; font-size: xx-large;">
-          <div>Resepsi</div>
+        <div style="font-size: xxx-large;">
+          <div class="font-allura">
+            Resepsi
+          </div>
         </div>
         <div style="font-size: medium">
           Kamis, 29 Februari 2024 <br> Jam 11.00 WITA - selesai
