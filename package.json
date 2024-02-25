@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
+    "gsap-trial": "^3.12.5",
     "nuxt": "^3.10.2",
     "sass": "^1.71.1",
     "vue": "^3.4.19",
