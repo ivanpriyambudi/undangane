@@ -3,7 +3,7 @@ import { gsap, Linear, DrawSVGPlugin } from "gsap-trial/all";
 
 const props = defineProps({
   keys: {
-    type: Number,
+    type: [Number, String],
     default: 0,
   },
 });

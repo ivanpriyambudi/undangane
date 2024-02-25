@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 const backgroundStyles = ref<any[]>([
-  { is: 'PageOne', style: { background: '#000' } },
-  { is: 'PageTwo', style: { background: '#000' } },
+  { is: 'PageOne', style: { background: '#37554D' } },
+  { is: 'PageTwo', style: { background: '#EFEFEF' } },
   { is: 'PageThree', style: { background: '#FFF' } },
-  { is: 'PageFourth', style: { background: '#000' } }
+  { is: 'PageFourth', style: { background: '#37554D' } }
 ])
 </script>
 
