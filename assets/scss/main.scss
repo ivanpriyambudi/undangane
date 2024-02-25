@@ -20,17 +20,25 @@ body {
 }
 
 .section {
-  display: flex;
   height: 100vh;
   scroll-snap-align: start;
-  justify-content: center;
-  align-items: center;
   position: relative;
   overflow: hidden;
 }
 
+.center-flex {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contents {
   width: 40%;
+}
+
+.contents.long {
+  width: 60%;
 }
 
 @media only screen and (max-width: 768px) {

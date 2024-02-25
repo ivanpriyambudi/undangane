@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="center-flex">
     <div style="display: flex; flex-direction: column; align-items: center;">
       <text-ivan :keys="'0'" />
       <text-and2 :keys="'0'" />

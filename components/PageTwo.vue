@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div style="display: flex; flex-direction: column; align-items: center; z-index: 2; position: relative; top: -10vh;">
+    <div
+      class="center-flex"
+      style="flex-direction: column; z-index: 2; position: relative; top: -10vh;"
+    >
       <div style="text-align: center; margin-bottom: 4vh; text-transform: uppercase; font-size: large;">
         <div>wedding</div>
         <div>save the date</div>
@@ -15,8 +18,13 @@
         </div>
       </div>
 
-      <div style="margin-bottom: 4vh; margin-top: 4vh;">
-        <div>And</div>
+      <div
+        class="contents"
+        style="margin-bottom: 4vh; margin-top: 4vh;"
+      >
+        <div class="and-line">
+          And
+        </div>
       </div>
 
       <div style="text-align: center;">
@@ -41,6 +49,27 @@
 <style lang="scss" scoped>
 .bg-img-1 {
   position: absolute;
-  bottom: -55vh;
+  bottom: -20vh;
+}
+
+.and-line {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    flex: auto;
+    height: 2px;
+    background: #000;
+    margin-right: 1rem;
+  }
+
+  &::after {
+    content: '';
+    flex: auto;
+    height: 2px;
+    background: #000;
+    margin-left: 1rem;
+  }
 }
 </style>
